@@ -7,7 +7,7 @@ Created on Thu Feb  8 14:16:14 2018
 """
 import pandas as pd 
 
-df = pd.read_table('/home/leticia/Pandas/my_env/Project/Imput/unesp_2018.txt',
+df = pd.read_table('<path>/unesp_2018.txt',
                    error_bad_lines=False,
                    header=None,
                    index_col=None,
